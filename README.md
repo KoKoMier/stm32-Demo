@@ -1,2 +1,2 @@
-# stm32-Demo
-This is a routine code for stm32f103zet6 for beginners
+#简介
+这几套是stm32f103zet6的例程，用于培训用，其中包括了工程模板，用定时器中断打灯，串口通信等，之后还会继续更新
