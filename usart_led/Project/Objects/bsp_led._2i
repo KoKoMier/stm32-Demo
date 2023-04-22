@@ -1,0 +1,4 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\User\led -I ..\User\rcc -I ..\Libraries\CMSIS -I ..\User -I ..\..\led\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User\systick -I ..\User\usart
+-IC:\Users\cyh14\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+-D__UVISION_VERSION="535" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD
+-o .\objects\bsp_led.o --omf_browse .\objects\bsp_led.crf --depend .\objects\bsp_led.d --feedback ".\Objects\project_template.fed" "..\User\led\bsp_led.c"

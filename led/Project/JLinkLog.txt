@@ -1,0 +1,73 @@
+T025C 000:048.019   SEGGER J-Link V7.22b Log File
+T025C 000:048.346   DLL Compiled: Jun 17 2021 17:22:49
+T025C 000:048.396   Logging started @ 2023-04-19 09:31
+T025C 000:048.449 - 48.473ms
+T025C 000:048.513 JLINK_SetWarnOutHandler(...)
+T025C 000:048.556 - 0.062ms
+T025C 000:048.598 JLINK_OpenEx(...)
+T025C 000:050.231   Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+T025C 000:050.917   Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+T025C 000:053.041   Hardware: V7.00
+T025C 000:053.133   S/N: 20090932
+T025C 000:053.193   OEM: SEGGER
+T025C 000:053.255   Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFull
+T025C 000:054.551   TELNET listener socket opened on port 19021
+T025C 000:055.194   WEBSRV Starting webserver
+T025C 000:055.470   WEBSRV Webserver running on local port 19080
+T025C 000:055.547 - 6.974ms returns "O.K."
+T025C 000:055.622 JLINK_GetEmuCaps()
+T025C 000:055.672 - 0.073ms returns 0x88EA5833
+T025C 000:055.729 JLINK_TIF_GetAvailable(...)
+T025C 000:056.243 - 0.559ms
+T025C 000:056.327 JLINK_SetErrorOutHandler(...)
+T025C 000:056.375 - 0.076ms
+T025C 000:056.463 JLINK_ExecCommand("ProjectFile = "C:\Users\cyh14\Desktop\stm32f103zet6\led\Project\JLinkSettings.ini"", ...). 
+T025C 000:072.974 - 16.555ms returns 0x00
+T025C 000:089.321 JLINK_ExecCommand("Device = STM32F103C8", ...). 
+T025C 000:102.598   Device "STM32F103C8" selected.
+T025C 000:103.561 - 14.165ms returns 0x00
+T025C 000:103.629 JLINK_GetHardwareVersion()
+T025C 000:103.670 - 0.061ms returns 70000
+T025C 000:103.713 JLINK_GetDLLVersion()
+T025C 000:103.753 - 0.059ms returns 72202
+T025C 000:103.794 JLINK_GetOEMString(...)
+T025C 000:103.837 JLINK_GetFirmwareString(...)
+T025C 000:103.886 - 0.068ms
+T025C 000:140.826 JLINK_GetDLLVersion()
+T025C 000:140.918 - 0.113ms returns 72202
+T025C 000:140.962 JLINK_GetCompileDateTime()
+T025C 000:141.002 - 0.060ms
+T025C 000:153.331 JLINK_GetFirmwareString(...)
+T025C 000:153.424 - 0.114ms
+T025C 000:165.575 JLINK_GetHardwareVersion()
+T025C 000:165.669 - 0.115ms returns 70000
+T025C 000:177.222 JLINK_GetSN()
+T025C 000:177.326 - 0.125ms returns 20090932
+T025C 000:189.016 JLINK_GetOEMString(...)
+T025C 000:214.442 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T025C 000:215.151 - 0.742ms returns 0x00
+T025C 000:215.211 JLINK_HasError()
+T025C 000:215.265 JLINK_SetSpeed(5000)
+T025C 000:215.445 - 0.212ms
+T025C 000:215.504 JLINK_GetId()
+T025C 000:227.990   InitTarget() start
+T025C 000:228.106    J-Link Script File: Executing InitTarget()
+T025C 000:748.677   Timeout while waiting for CPU to halt.
+T025C 000:761.565   Can not attach to CPU. Trying connect under reset.
+T025C 001:387.019   Timeout while waiting for CPU to halt.
+T025C 001:397.485   Connecting to CPU via connect under reset failed.
+T025C 001:459.032   InitTarget() end
+T025C 001:531.789   InitTarget() start
+T025C 001:531.882    J-Link Script File: Executing InitTarget()
+T025C 002:050.895   Timeout while waiting for CPU to halt.
+T025C 002:061.331   Can not attach to CPU. Trying connect under reset.
+T025C 002:684.983   Timeout while waiting for CPU to halt.
+T025C 002:695.526   Connecting to CPU via connect under reset failed.
+T025C 002:759.609   InitTarget() end
+T025C 002:759.716 - 2544.235ms returns 0x00000000
+T362C 007:556.339 Looking for J-Link GUI Server exe at: C:\Keil_v5\ARM\Segger\JLinkGUIServer.exe
+T362C 007:556.917 Looking for J-Link GUI Server exe at: C:\Program Files (x86)\SEGGER\JLink_V620h\\JLinkGUIServer.exe
+T025C 007:745.714 JLINK_Close()
+T025C 007:759.474 - 13.823ms
+T025C 007:759.562   
+T025C 007:759.606   Closed
